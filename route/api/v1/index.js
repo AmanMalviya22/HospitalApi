@@ -8,6 +8,6 @@ router.use('/doctors', require('./doctors'));
 router.use('/patients', require('./patients'))
 
 // setting connection of routes from localhost:300/api/v1/reports
-router.use('/reports', require('./reoprts'))
+router.use('/reports', require('./reports'))
 
 module.exports = router;
